@@ -1,0 +1,19 @@
+
+# Aliases
+#   System
+alias poweroff="sudo sync && sudo sync && sudo sync && sudo poweroff"
+alias reboot="sudo sync && sudo sync && sudo sync && sudo reboot"
+
+#   Command
+alias pwd="pwd -P"
+alias rmdir="rmdir -p"
+alias ls="ls --color=always"
+alias cp="cp -ai"
+alias rm="rm -ri"
+alias mv="mv -i"
+alias egrep="egrep --color=auto --exclude-dir={.bzr,.cvs,.git,.hg,.svn}"
+
+# Environment Variables
+#   System
+LC_ALL="zh_TW.UTF-8"
+export LC_ALL
