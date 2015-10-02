@@ -13,6 +13,10 @@ alias rm="rm -ri"
 alias mv="mv -i"
 alias egrep="egrep --color=auto --exclude-dir={.bzr,.cvs,.git,.hg,.svn}"
 
+#   Distro-depended Aliasing
+alias pacman="sudo pacman"
+alias systemctl="sudo systemctl"
+
 # Environment Variables
 #   System
 LC_ALL="zh_TW.UTF-8"

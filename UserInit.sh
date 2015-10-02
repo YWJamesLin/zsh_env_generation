@@ -28,10 +28,10 @@ cp ~/YWJLTheme/YWJLTheme.zsh-theme ~/.oh-my-zsh/themes/
 
 case ${ENV} in
   "0")
-  curl -L https://raw.githubusercontent.com/YWJamesLin/zsh_env_generation/master/common/zsh/zshrc_user >> ~/.zshrc
+  curl -L https://raw.githubusercontent.com/YWJamesLin/zsh_env_generation/master/zshrc_user >> ~/.zshrc
   ;;
   "1")
-  curl -L https://raw.githubusercontent.com/YWJamesLin/zsh_env_generation/master/common/zsh/zshrc_root >> ~/.zshrc
+  curl -L https://raw.githubusercontent.com/YWJamesLin/zsh_env_generation/master/zshrc_root >> ~/.zshrc
   ;;
 esac
 
