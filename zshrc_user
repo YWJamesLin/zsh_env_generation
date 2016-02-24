@@ -3,6 +3,7 @@
 #   System
 alias poweroff="sudo sync && sudo sync && sudo sync && sudo poweroff"
 alias reboot="sudo sync && sudo sync && sudo sync && sudo reboot"
+alias systemctl="sudo systemctl"
 
 #   Command
 alias pwd="pwd -P"
@@ -14,8 +15,9 @@ alias mv="mv -i"
 alias egrep="egrep --color=auto --exclude-dir={.bzr,.cvs,.git,.hg,.svn}"
 
 #   Distro-depended Aliasing
+alias aptitude="sudo aptitude"
+alias yum="sudo yum"
 alias pacman="sudo pacman"
-alias systemctl="sudo systemctl"
 
 # Environment Variables
 #   System
