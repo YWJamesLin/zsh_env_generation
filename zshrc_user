@@ -22,4 +22,5 @@ alias pacman="sudo pacman"
 # Environment Variables
 #   System
 LC_ALL="zh_TW.UTF-8"
-export LC_ALL
+VISUAL="vim"
+export VISUAL LC_ALL
