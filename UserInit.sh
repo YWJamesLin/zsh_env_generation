@@ -25,8 +25,8 @@ fi
 # zsh
 curl -L http://install.ohmyz.sh | sh
 git clone git://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
-sed '' -i 's/ZSH_THEME=.*$/ZSH_THEME="YWJLTheme"/' ~/.zshrc
-sed '' -i 's/plugins=.*$/plugins=(git zsh-syntax-highlighting)/' ~/.zshrc
+sed -i '' 's/ZSH_THEME=.*$/ZSH_THEME="YWJLTheme"/' ~/.zshrc
+sed -i '' 's/plugins=.*$/plugins=(git zsh-syntax-highlighting)/' ~/.zshrc
 git clone git://github.com/YWJamesLin/YWJLTheme.git ~/YWJLTheme
 cp ~/YWJLTheme/YWJLTheme.zsh-theme ~/.oh-my-zsh/themes/
 rm -rf ~/YWJLTheme
